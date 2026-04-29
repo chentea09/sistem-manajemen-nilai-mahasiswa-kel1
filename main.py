@@ -2,10 +2,10 @@
 from mahasiswa import Mahasiswa
 
 #<<<<<<< HEAD
-m1 = Mahasiswa("Andi", "23001") 
+m1 = Mahasiswa("Depi", "23001") 
 #>>>>>>> 3477ed7 (ini komentar)
-m2 = Mahasiswa("Budi", "23002")
-m3 = Mahasiswa("Siti", "23003")
+m2 = Mahasiswa("Gadis", "23002")
+m3 = Mahasiswa("Chintya", "23003")
 
 m1.set_nilai(80, 85, 90)
 m2.set_nilai(70, 75, 80)
