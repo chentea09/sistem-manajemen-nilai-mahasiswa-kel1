@@ -36,6 +36,18 @@ class Mahasiswa:
             return "C"
         else:
             return "D"
+        
+    def get_grade_desc(self):
+        grade = self.get_grade()
+
+        if grade == "A":
+            return "Sangat Baik (85–100)"
+        elif grade == "B":
+            return "Baik (70–84)"
+        elif grade == "C":
+            return "Cukup (60–69)"
+        else:
+            return "Kurang (<60)"
 
     def is_lulus(self):
         # method untuk mengecek apakah lulus atau tidak
