@@ -41,6 +41,12 @@ class Mahasiswa:
         # method untuk mengecek apakah lulus atau tidak
         return self.__nilai_akhir >= 60  # True jika >=60, False jika tidak
 
+    def keterangan_lulus(self):
+        if self.is_lulus():
+            return "Lulus"
+        else:
+            return "Tidak Lulus"
+    
     def info(self):
         # method untuk menampilkan informasi mahasiswa
         print(self.__nama, self.__nim, self.__nilai_akhir, self.get_grade())

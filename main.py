@@ -2,9 +2,7 @@
 from mahasiswa import Mahasiswa
 
 #<<<<<<< HEAD
-m1 = Mahasiswa("Andi", "23001")
-#=======
-m1 = Mahasiswa("Chen", "23001") 
+m1 = Mahasiswa("Andi", "23001") 
 #>>>>>>> 3477ed7 (ini komentar)
 m2 = Mahasiswa("Budi", "23002")
 m3 = Mahasiswa("Siti", "23003")
@@ -22,7 +20,10 @@ m1.info()
 m2.info()
 m3.info()
 #===
-m3.info()
+
+print(m1.keterangan_lulus())
+print(m2.keterangan_lulus())
+print(m3.keterangan_lulus())
 
 
 
