@@ -20,9 +20,9 @@ m3.hitung_nilai_akhir()
 print("DATA MAHASISWA")
 m1.info()
 m2.info()
-#<<<<<<< HEAD
+m3.info()
+#===
 m3.info()
 
-#=======
-m3.info()
-#>>>>>>> ad822acf94502d75096e18241aa71cda45e90df0
+
+
