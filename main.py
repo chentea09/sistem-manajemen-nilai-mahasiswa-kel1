@@ -16,3 +16,5 @@ print("DATA MAHASISWA")
 m1.info()
 m2.info()
 m3.info()
+
+#depi
