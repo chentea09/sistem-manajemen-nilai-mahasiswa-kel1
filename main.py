@@ -7,14 +7,17 @@ m1 = Mahasiswa("Depi", "23001")
 m2 = Mahasiswa("Gadis", "23002")
 m3 = Mahasiswa("Chintya", "23003")
 
+# mengisi nilai tugas, uts, dan uas mahasiswa
 m1.set_nilai(80, 85, 90)
 m2.set_nilai(70, 75, 80)
 m3.set_nilai(60, 65, 70)
 
+# menghitung nilai akhir mahasiswa 
 m1.hitung_nilai_akhir()
 m2.hitung_nilai_akhir()
 m3.hitung_nilai_akhir()
 
+# menampilkan hasil mahasiswa
 print("DATA MAHASISWA")
 m1.info()
 m2.info()
