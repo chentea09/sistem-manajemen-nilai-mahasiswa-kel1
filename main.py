@@ -24,9 +24,8 @@ m2.info()
 m3.info()
 #===
 
-
-print("keterangan lulus")
 # tampilkan data + keterangan lulus langsung
+print("keterangan lulus")
 for mhs in [m1, m2, m3]:
     status = "Lulus" if mhs.is_lulus() else "Tidak Lulus"
     print(mhs._Mahasiswa__nama, mhs.get_nilai_akhir(), status)
