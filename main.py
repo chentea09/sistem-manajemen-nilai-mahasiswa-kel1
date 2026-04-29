@@ -1,6 +1,6 @@
 from mahasiswa import Mahasiswa
 
-m1 = Mahasiswa("Chen", "23001")
+m1 = Mahasiswa("Andi", "23001")
 m2 = Mahasiswa("Budi", "23002")
 m3 = Mahasiswa("Siti", "23003")
 
